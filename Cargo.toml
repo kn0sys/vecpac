@@ -13,7 +13,7 @@ keywords = [
     "machine-learning",
     "sacred-geometry"
 ]
-categories = ["Algorithms"]
+categories = ["algorithms"]
 
 [lib]
 name = "vecpac"
