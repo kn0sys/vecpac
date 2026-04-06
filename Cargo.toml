@@ -1,6 +1,6 @@
 [package]
 name = "vecpac"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 authors = ["n12n <nigel.christian@hiahatf.org>"]
 documentation = "https://docs.rs/vecpac"
@@ -21,4 +21,4 @@ path = "src/lib.rs"
 crate-type = ["lib"]
 
 [dependencies]
-# N/A
+serde = { version = "1.0", optional = true, features = ["derive"] }
