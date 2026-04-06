@@ -1,0 +1,24 @@
+[package]
+name = "vecpac"
+version = "0.1.0"
+edition = "2024"
+authors = ["n12n <nigel.christian@hiahatf.org>"]
+documentation = "https://docs.rs/vecpac"
+description = "A spatial indexing algorithm in Rust that maps 2D data (like maps or pixels) onto a hexagonal grid."
+repository = "https://github.com/kn0sys/vecpac"
+license = "Apache-2.0"
+readme = "README.md"
+keywords = [
+    "deep-learning",
+    "machine-learning",
+    "sacred-geometry"
+]
+categories = ["Algorithms"]
+
+[lib]
+name = "vecpac"
+path = "src/lib.rs"
+crate-type = ["lib"]
+
+[dependencies]
+# N/A
